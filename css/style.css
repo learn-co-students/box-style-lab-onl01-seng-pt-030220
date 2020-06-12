@@ -5,6 +5,7 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  background-image: url(/images/white-wood.jpg) ;
 }
 
 .container, h1 {
@@ -22,6 +23,18 @@ h4 {
   margin: 20px 0 0 0;
 }
 
+h4.amiable {
+  background: linear-gradient(to right, #22aa44, #44cc66);
+}
+
+h4.indifferent {
+  background: linear-gradient(to right, #abab01, #dddd22);
+}
+
+h4.dubious {
+  background: linear-gradient(to right, #ab2323, #dd4444);
+}
+
 .amiable {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
@@ -30,10 +43,14 @@ h4 {
 }
 
 .indifferent {
+  border: 1px solid #abab01;
+  box-shadow:  -1px 1px #abab01, -2px 2px #abab01, -3px 3px #abab01, -4px 4px #abab01, -5px 5px #abab01;
   background-color: #dddd22;
 }
 
 .dubious {
+  border: 1px solid #ab2323;
+  box-shadow:  -1px 1px #ab2323, -2px 2px #ab2323, -3px 3px #ab2323, -4px 4px #ab2323, -5px 5px #ab2323;
   background-color: #dd4444;
 }
 
@@ -53,4 +70,9 @@ h4 {
 
 .large {
   width: 303%;
+}
+
+img {
+  border: 1px solid #000;
+  box-sizing: border-box;
 }
