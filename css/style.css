@@ -71,6 +71,14 @@ h4.indifferent {
   );
 }
 
+h4.indifferent:hover {
+  background: linear-gradient(
+    to right,
+    #aa0,
+    #770
+  );
+}
+
 .dubious {
   border: 1px solid #721010;
   box-shadow:  -1px 1px #721010, -2px 2px #721010, -3px 3px #721010, -4px 4px #721010, -5px 5px #721010;
@@ -82,6 +90,14 @@ h4.dubious {
     to right,
     #700,
     #a00
+  );
+}
+
+h4.dubious:hover {
+  background: linear-gradient(
+    to right,
+    #a00,
+    #700
   );
 }
 
